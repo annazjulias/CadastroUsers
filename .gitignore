@@ -1,8 +1,11 @@
-node_modules
-# Keep environment variables out of version control
+# Node.js
+node_modules/
+
+# Arquivos de ambiente
 .env
 
-/generated/prisma
-# Ignorar vídeos grandes
+# Prisma
+/generated/prisma/
 
-.backgraud.mp4
+# Ignorar apenas o vídeo grande
+src/assets/backgraud.mp4
